@@ -8,7 +8,7 @@
 # 📷 Telas
 
 <div align="center" >
-  <img src="front.png" alt="signup" height="425">
+  <img src="front.png" height="425">
 </div>
 <br>
 
