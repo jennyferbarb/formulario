@@ -8,7 +8,7 @@
 # 📷 Telas
 
 <div align="center" >
-  <img src="front.png" height="425">
+  <img url="front.png" height="425">
 </div>
 <br>
 
