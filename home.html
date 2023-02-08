@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html>
+<head>
+		<!-- Metadados -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+	<title>Reserva</title>
+	
+	<!--css-->
+	<link rel="stylesheet"  href="hom.css">
+	
+	<ul>
+	<!--Menu links-->
+	<li><a href="#"> Contato </a></li>	
+	<li><a href="#"> Localizacao </a></li>
+	<li><a href="#"> Galeria </a></li>
+
+</ul><br><br>
+</head>
+<body>
+	<img src="img/foto.png">
+ <form>
+ <p> Reserva </p><br><br><br>
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+				
+                <div class="campo" >
+                    <label for="nome"><strong>Nome</strong></label >
+                    <input type="text" name="nome" id="nome" required>
+					
+					    <label for="email"><strong>Email</strong></label >
+						<input type="email" name="email" id="email" required>
+						
+					<label for="conv"><strong>Convidados</strong></label >
+					<select>
+						<option value="#"> Quantos convidados </option>
+						<option value="#"> 10 pessoas </option>
+						<option value="#"> 15 pessoas </option>
+						<option value="#"> 20 pessoas </option>
+					</select>
+                </Div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+				
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label >
+                    <input type="text" name="sobrenome" id="sobrenome" obrigatório>
+					
+					<label for="conv"><strong>Unidade</strong></label >
+			<select>
+				<option value="#"> Escolher unidade </option>
+				<option value="#"> Av. Paulista, Nº 233 </option>
+				<option value="#"> R. Maria flores, Nº 1320 </option>
+			</select>
+			    <label for="data"><strong>Data e hora</strong></label >
+				<input type="datetime" name="hora" required> 
+			
+				<label for="horario"><strong></strong></label >
+                <input type="time" id="hora" name="hora" max="23:00" min="18:00" required>
+
+	
+                </Div><br><br><br><br><br>
+
+
+            <!-- Caixa de texto -->
+    
+        <Br><br><br><br>
+        <label for="experiencia"><strong>Observacao </strong></label ><br>
+        <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            <!-- Botão para enviar o formulário -->
+        <button class="botao" type="submit" onsubmit="">Concluído</button >            
+
+</form>
+
+
+</body>
+</html>
+
